@@ -12,5 +12,18 @@ public class Program
             Console.WriteLine("Num = 10");
         }
     }
+
+    public static int Srednia(int[] tab)
+    {
+        int res = 0;
+        for (int i = 0; i < tab.Length; i++)
+        {
+            res += tab[i];
+        }
+
+        res = res / tab.Length;
+
+        return res;
+    }
 }
 
